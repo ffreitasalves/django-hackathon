@@ -1,2 +1,4 @@
 virtual_django/
 django_hackathon/django_hackathon/settings.py
+db.sqlite3
+*.pyc
