@@ -1,6 +1,16 @@
 {% extends 'base.html' %}
 
-
+{% block extra_css %}
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+    </style>
+{% endblock %}
 
 {% block content %}
     <div class="container">
@@ -11,9 +21,5 @@
         </div>
 
     </div><!-- /.container -->
-
-
-
-
 
 {% endblock %}

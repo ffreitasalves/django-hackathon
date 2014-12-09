@@ -12,18 +12,7 @@
     {% load bootstrap3 %}
 
     {% bootstrap_css %}
-    <style type="text/css">
-        body {
-            padding-top: 50px;
-        }
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    {% block extra_css %}{% endblock %}
 
 </head>
 
@@ -68,5 +57,9 @@
 
 
 {% bootstrap_javascript %}
+
+{% block extra_js %}
+{% endblock %}
+
 </body>
 </html>
