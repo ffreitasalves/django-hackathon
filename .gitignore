@@ -1,5 +1,5 @@
 virtual_django/
 .idea/
-django_hackathon/django_hackathon/settings.py
+django_hackathon/django_hackathon/settings_local.py
 db.sqlite3
 *.pyc
