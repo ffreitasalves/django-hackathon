@@ -4,9 +4,11 @@ from django.contrib import admin
 urlpatterns = patterns('',
 
     url(r'^$', 'core.views.home', name='home'),
-    # Examples:
-    # url(r'^$', 'django_hackathon.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
+
+    #Authentication views
+    url(r'^accounts/login/$', 'django.contrib.auth.views.login',
+        {'template_name': 'registration/login.html'},
+    name='login'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
