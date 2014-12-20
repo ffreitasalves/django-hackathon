@@ -16,7 +16,8 @@ pip install -r requirements.txt
 Now, inside the django_hackathon settings folder (the one with the settings.py), you must crete a `settings_local.py` file with a `SECRET_KEY`:
 
 ```
-SECRET_KEY = 'LARGE RANDOM VALUE YOU MUST CREATE'```
+SECRET_KEY = 'LARGE RANDOM VALUE YOU MUST CREATE'
+```
 
 That's the way to keep your keys, passwords and tokens only local.
 
