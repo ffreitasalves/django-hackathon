@@ -11,7 +11,7 @@ First `git clone` this repo, then install the requirements using pip(I am using 
 
 ```
 git clone https://github.com/ffreitasalves/django-hackathon.git
-cd django_hackathon
+cd django-hackathon
 pip install -r requirements.txt
 ```
 
