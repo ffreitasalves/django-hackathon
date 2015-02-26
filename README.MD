@@ -10,6 +10,7 @@ A Django project to kick off new projects.
 First `git clone` this repo, then install the requirements using pip(I am using virtualenv with python 2.7.6):
 
 ```
+git clone https://github.com/ffreitasalves/django-hackathon.git
 pip install -r requirements.txt
 ```
 
